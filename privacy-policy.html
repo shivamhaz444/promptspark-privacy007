@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptSpark — Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #f97316;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            color: #f97316;
+            font-size: 20px;
+            margin: 28px 0 12px;
+        }
+
+        p,
+        li {
+            font-size: 15px;
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .date {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 24px;
+        }
+
+        a {
+            color: #f97316;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>⚡ PromptSpark — Privacy Policy</h1>
+        <p class="last-updated">Last updated: March 15, 2026</p>
+
+        <h2>Overview</h2>
+        <p>PromptSpark is a Chrome extension that helps users capture, organize, rank, and improve their AI prompts. We
+            are committed to protecting your privacy. This policy explains how PromptSpark handles your data.</p>
+
+        <h2>Data Collection & Storage</h2>
+        <p><strong>PromptSpark does not collect, track, or harvest any user data.</strong> We do not have servers and we
+            do not see your prompts.</p>
+        <p>All core data — including saved prompts, rankings, folders, insights, community bookmarks, and custom
+            templates — is stored locally on your
+            device using Chrome's built-in <code>chrome.storage.local</code> API. No data ever leaves your browser
+            unless you explicitly enable optional AI features.</p>
+
+        <h2>What Data is Stored Locally</h2>
+        <ul>
+            <li>Prompts you type into supported AI chatbot sites (captured only on sites you visit)</li>
+            <li>AI rankings, categories, and improvement suggestions (generated locally)</li>
+            <li>Folder names and organization preferences</li>
+            <li>Notification and reminder settings</li>
+        </ul>
+        <p>This data is never transmitted to any external server, API, or third-party service.</p>
+
+        <h2>AI Processing & Optional Third-Party APIs</h2>
+        <p>By default, all AI analysis (prompt heuristic ranking, categorization, metrics) runs entirely within your
+            browser using local JavaScript algorithms. No external networks are contacted.</p>
+        <p><strong>Optional LLM Integration:</strong> PromptSpark "Elite" (v3.0.x) includes an optional feature to
+            automatically improve prompts using external Large Language Models (LLMs).</p>
+        <ul>
+            <li>If you choose to enter your own API key (e.g., OpenAI or Google Gemini) in the Settings tab, your prompt
+                text will be transmitted directly to that provider's official API to generate an improved rewrite.</li>
+            <li>Your API keys are stored strictly locally on your device via <code>chrome.storage.local</code>. They are
+                never transmitted to PromptSpark creators.</li>
+            <li>Please refer to the respective privacy policies of OpenAI or Google regarding how they handle data sent
+                securely via API.</li>
+        </ul>
+
+        <h2>Permissions Used</h2>
+        <ul>
+            <li><strong>storage</strong> — To save your prompts and preferences locally</li>
+            <li><strong>alarms</strong> — To schedule 24-hour reminder notifications</li>
+            <li><strong>notifications</strong> — To display local save reminders</li>
+            <li><strong>activeTab</strong> — To detect AI chatbot sites for prompt capture</li>
+            <li><strong>contextMenus</strong> — To add a "Save to PromptSpark" right-click option</li>
+            <li><strong>scripting</strong> — To allow prompt capture and local improvement context menus</li>
+            <li><strong>declarativeNetRequest</strong> — To enable the private Prompt Academy video embeds</li>
+            <li><strong>Host permissions</strong> — To run content scripts on supported AI chatbot sites only</li>
+        </ul>
+
+        <h2>Academy & Mastery Certifications</h2>
+        <p>The PromptSpark Academy uses YouTube embeds to provide educational content. We use the
+            <code>declarativeNetRequest</code> API to bypass tracker-heavy headers, ensuring the video displays cleanly
+            within your dashboard while adhering to high privacy standards. No data from your Academy progress is shared
+            with third parties.</p>
+        <p>Certificates are generated locally on a 2D canvas and are never saved to any server. In PromptSpark v3.0.2, all resources are packaged locally; this ensures that no remotely hosted code ever enters your browser environment, satisfying strict Manifest V3 security requirements.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>PromptSpark does not use any third-party analytics, tracking pixels, or advertising frameworks. No cookies
+            are set. Other than optional user-configured API calls (OpenAI/Gemini), no external services are utilized.
+        </p>
+
+        <h2>Data Sharing</h2>
+        <p>We do not sell, transfer, or share any user data with any third party for any purpose.</p>
+
+        <h2>Data Deletion</h2>
+        <p>You can delete all your data at any time by uninstalling the extension or clearing your browser's extension
+            storage. No data persists after uninstallation.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If we update this privacy policy, the changes will be reflected on this page with an updated date.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy, contact us at <a
+                href="mailto:shivamhazari8@gmail.com">shivamhazari8@gmail.com</a>.</p>
+    </div>
+</body>
+
+</html>
